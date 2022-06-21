@@ -10,10 +10,11 @@ body {
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
+  padding: 4px;
+  width: auto;
+  text-align: justify;
+  border: 1px solid black;
+  margin-bottom: 15px ;
   outline: none;
   transition: 0.4s;
 }
@@ -26,9 +27,11 @@ body {
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: none;
   display: none;
+  text-align: justify;
   overflow: hidden;
+  margin: 25px auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
