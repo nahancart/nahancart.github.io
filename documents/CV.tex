@@ -1,0 +1,296 @@
+% Resume 2.0 (2009-04-12)
+% Copyright 2009 Zach Scrivena
+% zachscrivena@gmail.com
+% http://zs.freeshell.org/latexresume/
+%
+% This document is released under the
+% Creative Commons Attribution 3.0 Unported License
+% http://creativecommons.org/licenses/by/3.0/
+
+%%%%%%%%%%%%%%
+%% PREAMBLE %%
+%%%%%%%%%%%%%%
+
+\documentclass[letterpaper,10pt,oneside]{article}
+%\documentclass[a4paper,12pt,oneside]{article}
+\usepackage{ifthen}
+\usepackage{longtable}
+\usepackage{setspace}
+\usepackage[left=.8in,right=.8in,top=.6in,bottom=0.6in,nohead,nofoot]{geometry}
+\usepackage{marvosym}
+\usepackage{lmodern}
+\usepackage{multicol}
+\usepackage{comment}
+
+\usepackage[bookmarks,
+pdftitle={Resume},
+pdfauthor={John Doe},
+pdfsubject={},
+pdfcreator={},
+pdfproducer={},
+pdfkeywords={},
+pdfpagemode={},
+pdfstartview=FitH,
+colorlinks=true,
+linkcolor=black,   %Color for normal internal links.
+anchorcolor=black, %Color for anchor text.
+citecolor=green,   %Color for bibliographical citations in text.
+filecolor=magenta, %Color for URLs which open local files.
+menucolor=red,     %Color for Acrobat menu items.
+urlcolor=black]{hyperref}
+
+\newcommand{\longmonth}[1]{%
+\ifthenelse{\equal{#1}{1}}{January}{}%
+\ifthenelse{\equal{#1}{2}}{February}{}%
+\ifthenelse{\equal{#1}{3}}{March}{}%
+\ifthenelse{\equal{#1}{4}}{April}{}%
+\ifthenelse{\equal{#1}{5}}{May}{}%
+\ifthenelse{\equal{#1}{6}}{June}{}%
+\ifthenelse{\equal{#1}{7}}{July}{}%
+\ifthenelse{\equal{#1}{8}}{August}{}%
+\ifthenelse{\equal{#1}{9}}{September}{}%
+\ifthenelse{\equal{#1}{01}}{January}{}%
+\ifthenelse{\equal{#1}{02}}{February}{}%
+\ifthenelse{\equal{#1}{03}}{March}{}%
+\ifthenelse{\equal{#1}{04}}{April}{}%
+\ifthenelse{\equal{#1}{05}}{May}{}%
+\ifthenelse{\equal{#1}{06}}{June}{}%
+\ifthenelse{\equal{#1}{07}}{July}{}%
+\ifthenelse{\equal{#1}{08}}{August}{}%
+\ifthenelse{\equal{#1}{09}}{September}{}%
+\ifthenelse{\equal{#1}{10}}{October}{}%
+\ifthenelse{\equal{#1}{11}}{November}{}%
+\ifthenelse{\equal{#1}{12}}{December}{}}
+
+\newcommand{\shortmonth}[1]{%
+\ifthenelse{\equal{#1}{1}}{Jan}{}%
+\ifthenelse{\equal{#1}{2}}{Feb}{}%
+\ifthenelse{\equal{#1}{3}}{Mar}{}%
+\ifthenelse{\equal{#1}{4}}{Apr}{}%
+\ifthenelse{\equal{#1}{5}}{May}{}%
+\ifthenelse{\equal{#1}{6}}{Jun}{}%
+\ifthenelse{\equal{#1}{7}}{Jul}{}%
+\ifthenelse{\equal{#1}{8}}{Aug}{}%
+\ifthenelse{\equal{#1}{9}}{Sep}{}%
+\ifthenelse{\equal{#1}{01}}{Jan}{}%
+\ifthenelse{\equal{#1}{02}}{Feb}{}%
+\ifthenelse{\equal{#1}{03}}{Mar}{}%
+\ifthenelse{\equal{#1}{04}}{Apr}{}%
+\ifthenelse{\equal{#1}{05}}{May}{}%
+\ifthenelse{\equal{#1}{06}}{Jun}{}%
+\ifthenelse{\equal{#1}{07}}{Jul}{}%
+\ifthenelse{\equal{#1}{08}}{Aug}{}%
+\ifthenelse{\equal{#1}{09}}{Sep}{}%
+\ifthenelse{\equal{#1}{10}}{Oct}{}%
+\ifthenelse{\equal{#1}{11}}{Nov}{}%
+\ifthenelse{\equal{#1}{12}}{Dec}{}}
+
+% Style settings
+\pagestyle{empty}
+\setlength{\parindent}{0in}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}} % change footnote symbols
+
+% Macros
+\newenvironment{myresume}[2]{\pdfbookmark{#1}{#1}{\LARGE\begin{center}\textbf{{#1}}\end{center}}\vspace{1mm}\vspace{-3mm}\begin{longtable}{p{0.12\textwidth} p{0.83\textwidth}}~&#2}{\end{longtable}}
+\renewcommand{\section}[2]{\vspace{-1.3em}\\\pdfbookmark{#1}{#2}{\singlespace #1}&}
+\newcommand{\firstentry}[1]{\newline#1}
+\newcommand{\entry}[1]{\vspace{-0.8em}\\~&#1}
+\newcommand{\hide}[1]{}
+
+% Datestamp format: \datestamp{YEAR}{MONTH}{DAY}
+%\newcommand{\datestamp}[3]{\longmonth{#2} #3, #1}
+%\newcommand{\datestamp}[3]{\shortmonth{#2} #3, #1}
+\newcommand{\datestamp}[3]{\shortmonth{#2} #1}
+
+%%%%%%%%%%%%%%%%
+%% NAME BLOCK %%
+%%%%%%%%%%%%%%%%
+
+\begin{document}
+{\fontfamily{lmss}\selectfont
+\begin{myresume}{Nathan Hancart} 
+
+\hspace{-2.5cm}{\small
+Department of Economics, University College London      \hfill \href{mailto:nathan.hancart.16@ucl.ac.uk}{\textcolor{blue}{nathan.hancart.16@ucl.ac.uk}}
+
+\hspace{-2.5cm}30 Gordon Street, London WC1H 0AX, UK \hfill \href{www.nathanhancart.wordpress.com}{\textcolor{blue}{nathanhancart.wordpress.com}}
+}%
+
+\\\hline
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\section{Current\newline Position}{Current Position}
+
+\firstentry{
+\textbf{PhD Candidate in Economics}, University College London\hfill 2018 -- present \newline
+Expected Completion: 2023
+}
+
+\section{Fields}{Fields of Interest}
+
+\firstentry{
+Primary: Microeconomic Theory\newline Secondary: Information Economics, Behavioral Economics
+}
+\begin{comment}
+
+
+\section{Placement Details}{Placement Details}
+
+\firstentry{
+Placement Director: Prof. Franck Portier\hfill
+{\href{mailto:f.portier@ucl.ac.uk}{\textcolor{blue}{f.portier@ucl.ac.uk}}}
+\newline
+Graduate Coordinator: Daniella Harper\hfill
+{\href{mailto:economics.jobmarket@ucl.ac.uk}{\textcolor{blue}{economics.jobmarket@ucl.ac.uk}}}%
+}
+
+\end{comment}
+\vspace{0.3cm}
+\section{Supervisors}{Supervisors}
+
+
+\vspace{0.1cm}
+
+%
+\begin{minipage}[ht]{0.48\textwidth}
+Prof. Ran Spiegler \\
+\begin{comment}
+UCL Department of Economics \\
+Drayton House, 30 Gordon St \\
+London, WC1H 0AX\\
+{\href{mailto:r.spiegler@ucl.ac.uk}{\textcolor{blue}{r.spiegler@ucl.ac.uk}}}\\
+\end{comment}
+\end{minipage}%
+\hspace{-3cm}\begin{minipage}[ht]{0.48\textwidth}\vspace{-0.1cm}
+%\vspace{-0.4cm}
+Prof. Vasiliki Skreta \\
+\begin{comment}
+UCL Department of Economics \\
+Drayton House, 30 Gordon St \\
+London, WC1H 0AX\\
+{\href{mailto:v.skreta@ucl.ac.uk}{\textcolor{blue}{v.skreta@ucl.ac.uk}}}\\
+\end{comment}
+\end{minipage}
+
+\begin{comment}
+\begin{minipage}[ht]{0.48\textwidth}
+Prof. Xxx Xxx\\
+UCL Department of Economics \\
+Drayton House, 30 Gordon St \\
+London, WC1H 0AX\\
+{\href{mailto:xxx@ucl.ac.uk}{\textcolor{blue}{xxx@ucl.ac.uk}}}\\
+\end{minipage}
+\end{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Education %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Prior\newline Education}{Education}
+
+\firstentry{
+\textbf{MRes} in Economics, University College London\hfill 2018 
+}
+\firstentry{
+\textbf{MSc} in Economics, University College London\hfill 2017 
+}%
+\entry{
+\textbf{BSc} in Business Engineering, Université Libre de Bruxelles\hfill 2016 
+}
+
+%%%%%%%%%%%%%%%%%%
+%% Job Market Paper %%
+%%%%%%%%%%%%%%%%%%
+
+\section{Job Market\newline Paper}{Job Market Paper}
+
+\firstentry{\textbf{Optimal Menus of Tests}\vspace{0.1cm}\newline
+I study the optimal design of menus of tests. Prior to taking a binary decision, accept or reject a privately informed agent, a decision-maker (DM) can perform one test from a restricted set. For example, the restriction can come from information processing or technological constraints. The DM wants to accept a subset of types whereas the agent always wants to be accepted. Instead of choosing the test himself, the DM let the agent choose a test from a menu. The choice itself then serves as an additional dimension for information revelation. I characterise when a menu is optimal and show that the DM does not benefit from committing to an action. Using these results, I show conditions under which the DM wants or does not want to include strictly less informative test in the menu. I also define an order on tests that characterises which tests are part of an optimal menu. Finally, I demonstrate in an application how the need to provide incentives for self-selection in a menu hinders the ability to learn from the test itself.  
+}
+
+%%%%%%%%%%%%%%%%%%
+%% Other Research %%
+%%%%%%%%%%%%%%%%%%
+
+\section{Working\newline Paper}{Other Research}
+
+\firstentry{\textbf{Managing the Expectations of Buyers with Reference-dependent Preferences}\newline
+I consider a model of monopoly pricing where a risk-neutral firm makes an offer to a buyer with reference-dependent preferences. The reference point is the ex-ante probability of trade and the buyer exhibits an attachment effect: the higher his expectations to buy, the higher his willingness-to-pay. When the buyer’s valuation is private information, a unique equilibrium exists where the firm plays a mixed strategy and its profits are the same as in the reference-independent benchmark. The equilibrium always entails inefficiencies: even as the firm’s information converges to complete information, it mixes on a non-vanishing support and the probability of no trade is greater than zero. Finally, I show that when the firm can obtain costless signals on the buyer’s valuation,
+it can do strictly better than in the reference-independent benchmark by leveraging the uncertainty generated by a noisy learning strategy. However, this advantage vanishes as the attachment effect grows large.
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Teaching %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Teaching}{teaching}
+
+\firstentry{\textbf{Microeconomics} (MRes, UCL) \hfill \datestamp{2018}{}{} -- present
+}%
+\entry{\textbf{Advanced Microeconomic Theory} (MSc, UCL) \hfill \datestamp{2018}{}{} -- \datestamp{2020}{}{}
+}%
+\entry{\textbf{Economics of Information} (BSc, UCL) \hfill \datestamp{2017}{}{} -- \datestamp{2019}{}{}
+}
+
+
+%%%%%%%%%%%%%%%%%%
+%% AWARDS %%
+%%%%%%%%%%%%%%%%%%
+
+%\section{Honors \&\newline Awards}{honors}
+
+%\firstentry{Award for best Teaching Assistant on an MRes module, UCL\hfill \datestamp{2022}{06}{}
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Referee Service %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Referee\newline Service}{Referee Service}
+
+\firstentry{Theoretical Economics
+}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Work %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Professional Experience}{experience}
+
+\firstentry{Research assistant for Prof. Ran Spiegler \hfill \datestamp{2018}{04}{} -- \datestamp{2022}{}{}\newline
+Research assistant for Prof. Vasiliki Skreta \hfill \datestamp{2019}{}{} -- 2022
+}%
+
+\entry{Student Representative for PhD students at the Economics Department \hfill \datestamp{2017}{}{} -- present
+}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Presentation %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Presentations}{presentations}
+
+\firstentry{Brown-bag theory seminar UCL (2022, 2021), World Congress Game Theory Society (Budapest, 2021), Applied Theory Workshop (Toulouse School of Economics, 2020)}
+%\firstentry{\hfill \datestamp{}{}{}
+%}
+
+%%%%%%%%%%%%%%%
+%% LANGUAGES %%
+%%%%%%%%%%%%%%%
+
+\section{Languages}{languages}
+
+\firstentry{French (Native), English (Fluent), Dutch (Basic), Hebrew (Basic)}
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\section{Software Skills}{skills}
+
+\firstentry{Mathematica, Matlab}
+
+\end{myresume}}
+\end{document}
