@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.1)  19 OCT 2022 10:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.1)  24 OCT 2022 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -440,66 +440,74 @@ File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 125.
 
-Excluding 'comment' comment. Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 159--166
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]\OT1/lmss/m/n/10 Placement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--161
 
  []
 
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-66.
+61.
 (C:\Users\natha\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-166.
+161.
 
 (C:\Users\natha\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-166.
+161.
 
 (C:\Users\natha\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 166.
+(Font)              <10> on input line 161.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 166.
+(Font)              <7> on input line 161.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 166.
+(Font)              <5> on input line 161.
 
-Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 169--176
+Underfull \hbox (badness 10000) in paragraph at lines 164--169
 
  []
 
-Excluding 'comment' comment.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 191.
+Underfull \hbox (badness 10000) in paragraph at lines 173--178
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 207.
+ []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 217.
+(hyperref)                removing `\newline' on input line 184.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\newline' on input line 200.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\newline' on input line 211.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 222.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 216.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 251.
+(hyperref)                removing `\newline' on input line 245.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 261.
+(hyperref)                removing `\newline' on input line 255.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--270
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
 []\OT1/lmss/m/n/10 Professional
  []
 
@@ -507,26 +515,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--270
 
 {C:/Users/natha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 (CV.aux)
-Package rerunfilecheck Info: File `CV.out' has not changed.
-(rerunfilecheck)             Checksum: 7161181FF6CB17681BE5595F03E76CBA;1607.
+
+Package rerunfilecheck Warning: File `CV.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `CV.out':
+(rerunfilecheck)             Before: 7161181FF6CB17681BE5595F03E76CBA;1607
+(rerunfilecheck)             After:  036B39ECE2DA30DA596428BD45DC5C0D;1749.
  ) 
 Here is how much of TeX's memory you used:
  9184 strings out of 478338
- 147358 string characters out of 2836700
+ 147370 string characters out of 2836700
  474887 words of memory out of 3000000
- 27484 multiletter control sequences out of 15000+600000
+ 27483 multiletter control sequences out of 15000+600000
  496639 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,7n,77p,934b,561s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,7n,77p,798b,561s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}<C
 :/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C
 :/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:
 /Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><
 C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb>
 
-Output written on CV.pdf (2 pages, 111908 bytes).
+Output written on CV.pdf (2 pages, 113917 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 106 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
